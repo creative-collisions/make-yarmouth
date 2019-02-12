@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taking Part - Making a Toolkit with Maki
+title: Taking Part - Making a Toolkit with Maki Suzuki
 permalink: /posts/taking-part/making-a-toolkit-with-maki-suzuki
 layout: archive
 
@@ -17,6 +17,10 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AndanteDevs"
+
+note: "Group Åbäke"
 ---
 
-Page Test
+To create a new font as our 'creative toolkit', inspired by Great Yarmouth, we walked around the town looking for letters in shop signs that we thought were interesting and drew them. We then collated the drawings and photocopied the individual letters, creating a physical alphabet that we used to send a positive message to Great Yarmouth in the space's window.
+
+![window-good-day-small.png](https://i.imgur.com/DzmXa3i.png)
