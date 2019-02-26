@@ -9,7 +9,7 @@ author_profile: true
 
 author:
   name     : "Daniel Orr"
-  avatar   : "/assets/images/andante.png"
+  avatar   : "/assets/images/daniel-orr.png"
   bio      : "Games Developer"
   date     : "12-02-19"
   location : "Norfolk, England"
