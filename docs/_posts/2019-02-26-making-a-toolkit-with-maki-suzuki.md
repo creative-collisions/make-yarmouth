@@ -4,6 +4,7 @@ excerpt: "A Yarmouth Font with Maki Suzuki"
 permalink: /posts/taking-part/making-a-toolkit-with-maki-suzuki
 categories:
   - Posts
+  - Taking Part
 toc: false
 author_profile: true
 
