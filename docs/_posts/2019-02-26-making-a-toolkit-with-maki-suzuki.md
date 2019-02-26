@@ -1,10 +1,10 @@
 ---
-title: "Taking Part - Making a Toolkit with Maki Suzuki"
-excerpt: "Free practical art and design mini-projects at a central Great Yarmouth venue"
+title: "Making a Toolkit with Maki Suzuki"
+excerpt: "A Yarmouth Font with Maki Suzuki"
 permalink: /posts/taking-part/making-a-toolkit-with-maki-suzuki
 categories:
   - Posts
-toc: true
+toc: false
 author_profile: true
 
 author:
