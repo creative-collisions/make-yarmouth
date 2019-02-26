@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Taking Part - Making a Toolkit with Maki Suzuki
+title: "Taking Part - Making a Toolkit with Maki Suzuki"
+excerpt: "Free practical art and design mini-projects at a central Great Yarmouth venue"
 permalink: /posts/taking-part/making-a-toolkit-with-maki-suzuki
-layout: archive
+categories:
+  - Posts
+toc: true
+author_profile: true
 
 author:
   name     : "Daniel Orr"

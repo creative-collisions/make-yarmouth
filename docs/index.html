@@ -1,4 +1,43 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+header:
+  overlay_color: "#5e616c"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/photos/group-space2-2.jpg
+#  actions:
+#    - label: "Download Source Code"
+#      url: "https://github.com/mechania/mechania-source/archive/master.zip"
+#  caption: "Photo credit: [**Mechania World Builders**](https://discord.gg/dwBDrp3)"
+excerpt: "Free practical art and design mini-projects at a central Great Yarmouth venue"
+intro:
+  - excerpt: 'The ‘Make Yarmouth’ project explores exciting practical arts skills – from fashion to furniture design – with inspiring international artists in a workshop space in central Great Yarmouth. Get inspired by amazing international artists, designers and architects through creative hands-on projects. There are opportunities to make something truly creative and unique whilst meeting new people, learning new skills and gaining an Arts Award qualification.'
+#feature_row:
+#  - image_path: assets/images/unsplash-gallery-image-discord-chat.png
+#    alt: "unsplash-gallery-image-discord-chat.png"
+#    title: "Community-Created"
+#    excerpt: "The server is filled with community suggestions and feedback"
+#    url: "https://discord.gg/dwBDrp3"
+#  - image_path: /assets/images/unsplash-gallery-image-releases.png
+#    alt: "unsplash-gallery-image-releases.png"
+#    title: "Actively Developed"
+#    excerpt: "Mechania is updated frequently, with updates every Thursday, or even before that!"
+#    url: "https://mechania.github.io/blog/news/releases"
+#  - image_path: /assets/images/unsplash-gallery-image-code.png
+#    alt: "unsplash-gallery-image-code.png"
+#    title: "Lightweight"
+#    excerpt: "The Mechania code is built with performance in mind"
+#    url: "https://github.com/mechania/mechania-source"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

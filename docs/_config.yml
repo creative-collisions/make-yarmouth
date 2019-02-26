@@ -1,4 +1,14 @@
-#Minimal Mistakes Config
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -10,11 +20,11 @@ title                    : "Make Yarmouth"
 title_separator          : "-"
 name                     : "Make Yarmouth"
 description              : "Free practical art and design mini-projects at a central Great Yarmouth venue. Get inspired by amazing international artists, designers and architects through creative hands-on projects. There are opportunities to make something truly creative and unique whilst meeting new people, learning new skills and gaining an Arts Award qualification."
-url                      : "https://creative-collisions.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://creative-collisions.github.io/make-yarmouth"
+baseurl                  : #"/artefact-blog/home"
 repository               : "creative-collisions/make-yarmouth"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#logo                     : "/assets/images/creacolli.jpg"
+logo                     : "/assets/images/creacolli.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -55,8 +65,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : true
+search_provider          : lunr # lunr (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -97,14 +107,14 @@ analytics:
 # Site Author
 author:
   name             : "Creative Collisions"
-  avatar           : "/assets/images/creacolli.jpg"
-  bio              : ""
-  location         : "Norfolk, UK"
-  email            : "colin.stott@norfolk.gov.uk"
+  avatar           : "/assets/images/creacolli.png"
+#  bio              : ""
+  location         : "Norfolk, England"
+#  email            : "productionsartefact@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://creativecollisions.org.uk"
+      url: "https://creative-collisions.github.io/make-yarmouth"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CreateCollide"
@@ -124,12 +134,15 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CreateCollide"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
+#      url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/creative-collisions"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://creativecollisions.org.uk"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -145,6 +158,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
+  - _docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
