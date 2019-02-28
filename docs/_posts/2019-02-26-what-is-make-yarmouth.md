@@ -5,7 +5,7 @@ permalink: /posts/what-is-make-yarmouth
 categories:
   - Information
   - Posts
-toc: true
+toc: false
 author_profile: false
 ---
 
