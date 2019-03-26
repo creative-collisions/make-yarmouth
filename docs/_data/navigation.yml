@@ -10,6 +10,6 @@ main:
 #  - title: "Getting Started"
 #    children:
 #      - title: "Installation"
-#        url: /docs/installation-guide/
+#        url: /docs/installation-guide
 #      - title: "Releases"
 #        url: /news/releases
