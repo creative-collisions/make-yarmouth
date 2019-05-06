@@ -1,10 +1,11 @@
 ---
+layout: archive
 title: "Sitemap"
 excerpt: "All posts and documentations"
 permalink: /sitemap/
-author_profile: false
 categories:
   - Information
+author_profile: false
 sidebar:
   title: "Documentation"
   nav: docs
